@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #db749b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*THEMES*/
+body.sky {
+  background: #76c9eb;
+}
+
+body.pink {
+  background: #ffb6c1;
+}
+
+body.dark {
+  background: #510466;
+}
+
+body.warm {
+  background: #ffccbb;
+}
+
+/*BUTTON THEMES*/
+
+body.sky .options button {
+  background: #c6e2ed;
+}
+
+body.pink .options button {
+  background: #ffe1f3;
+}
+
+body.dark .options button {
+  background: #cf8fe1;
+  
+}
+
+body.warm .options button {
+  background: #e68464;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.options button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #ffd1e7;
+  transition: 0.2s;
+}
+
+.options button:hover {
+  filter: brightness(90%);
+}
